@@ -1,0 +1,10 @@
+regime,model_type,r2,rmse,notes
+Pre-COVID,OLS Reduced,0.787,35631,lag12 dominant; unemployment adds modest value
+Pre-COVID,Ridge,0.785,34925,lag12 strongest; other variables weak
+Pre-COVID,Lasso,0.765,36544,lag12 only
+COVID/Recovery,OLS Reduced,0.845,115446,lag1 and gas strongest
+COVID/Recovery,Ridge,0.842,107650,gas strongest; lag1 also important
+COVID/Recovery,Lasso,0.785,125488,gas and lag1 selected
+Post-COVID,OLS Reduced,0.606,54937,lag12 and unemployment significant
+Post-COVID,Ridge,0.657,47593,lag12 strongest; weather contributes
+Post-COVID,Lasso,0.596,51637,"lag12, snow, precip retained"

@@ -1,0 +1,8 @@
+,Pre-COVID,COVID/Recovery,Post-COVID
+ridership_lag12,60030.009739343426,-0.0,38127.112690137415
+ridership_lag1,0.0,96169.20921058959,-0.0
+gas_price_lag1,0.0,124976.1704632294,319.77848440478067
+unemployment_rate_lag1,0.0,-0.0,-0.0
+avg_temp,-0.0,0.0,0.0
+total_precip_mm,-0.0,0.0,-6307.565880032566
+total_snow_cm,-0.0,-0.0,-22051.972309604556

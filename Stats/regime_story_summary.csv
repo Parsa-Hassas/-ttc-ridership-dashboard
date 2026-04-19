@@ -1,0 +1,4 @@
+regime,ols_main,lasso_selected,story
+Pre-COVID,ridership_lag12,ridership_lag12,Stable annual seasonality dominated ridership behavior.
+COVID/Recovery,"ridership_lag1, gas_price_lag1","gas_price_lag1, ridership_lag1",Short-run adaptation replaced normal seasonal structure.
+Post-COVID,"ridership_lag12, unemployment_rate_lag1","ridership_lag12, total_snow_cm, total_precip_mm, gas_price_lag1","Seasonal structure partially returned, with some added labor-market and weather sensitivity."
