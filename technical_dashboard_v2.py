@@ -7,10 +7,11 @@ import plotly.express as px
 # =========================
 # Load data
 # =========================
-main_df = pd.read_csv(r"Data\3_Processed_Data\main_dataset_modeling.csv", parse_dates=["date"])
-ridge_df = pd.read_csv(r"Stats\ridge_coefficients_by_period.csv")
-lasso_df = pd.read_csv(r"Stats\lasso_coefficients_by_period.csv")
-model_summary_df = pd.read_csv(r"Stats\model_summary_by_regime.csv")
+
+main_df = pd.read_csv("Data/3_Processed_Data/main_dataset_modeling.csv", parse_dates=["date"])
+ridge_coef = pd.read_csv("Stats/ridge_coefficients_by_period.csv")
+lasso_coef = pd.read_csv("Stats/lasso_coefficients_by_period.csv")
+model_summary = pd.read_csv("Stats/model_summary_by_regime.csv")
 
 # =========================
 # Clean column names
